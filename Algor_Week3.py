@@ -67,7 +67,7 @@ def mark_component(G, node, marked):
         for neighbor in G[current].keys():
             if neighbor not in marked:
                  marked[neighbor] = True
-                 total_marked = total_marked + 1 # does this really work?
+                 total_marked = total_marked + 1
                  open_list.append(neighbor)
     return total_marked
     
@@ -95,7 +95,7 @@ def max_distiance(G, v):
             if neighbor not in distance_from_start:
                 distance_from_start[neighbor] = distance_from_start[current] + 1
                 open_list.append(neighbor)
-   for
+   
 
 
 
